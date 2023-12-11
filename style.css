@@ -1,0 +1,1489 @@
+body{
+    background-color:#191414;
+    margin:0;
+	padding:0;
+	font-family:gotham;
+	
+}
+.header{
+    width:100%;
+    height:70px;
+    background-color:rgba(0,0,0,.5);	
+	position:fixed;
+	
+	
+}
+.header img{
+	width:10%;
+    padding:15px 0px;
+	margin-left:5%;
+	float:left;
+} 
+.nav{
+	width:40%;
+	height:70px;
+	//background-color:red;
+	margin-left:60%;
+	
+	
+}
+.nav p{
+	float:left;
+	margin-left:40px;
+	padding-top:10px;
+	color:white;
+	font-family:gotham;
+	transition:transform 0.5s;
+}
+.nav p:hover{
+	transform:scale(1.1);
+	color:1ed760;
+	
+	
+}
+.download{
+	width:100px;
+	height:28px;
+	border:2px solid #1ed760;
+	border-radius:6px;
+	
+	margin-top:23px;
+	margin-left:40px;
+	font-family:gotham;
+	background-color:#1ed760;
+	color:white;
+	
+	
+	
+	
+}
+.banner{
+	width:100vw;
+    height:100vh; 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(images/img.png);
+    background-size:cover;
+}
+.banner img{
+	width:100%;
+	margin:0;
+	height:700px;
+	
+	 
+	
+	
+}
+.button{
+	margin-left:45%;
+	margin-top:620px;
+	width:200px;
+	height:50px;
+	border:2px solid #1ed760;
+	border-radius:10px;
+	background-color:#1ed760;
+	color:white;
+	font-family:gotham;
+	font-weight:semi-bold;
+	font-weight:440;
+}
+.button img{
+	width:20px;
+    
+	margin-left:3%;
+	float:left;
+	height:20px;
+	margin-top:8px;
+}
+.button p{
+	margin-top:10px;
+}
+
+.about{
+	 width:100%;
+	 height:400px;
+	 background-color:#191414;
+	 
+	
+}
+.desc{
+	 width:40%;
+	 height:280px;
+	 //background-color:white;
+	 float:left; 
+	 margin-left:10%;
+	  margin-top:60px;
+	  color:white;
+      	
+}
+.desc h2{
+	color:#1ed760
+	
+	
+}
+.about1{
+	letter-spacing:0px;
+	line-height:1.5;
+	
+}
+.premium{
+	
+	margin-left:45%;
+	margin-top:40px;
+	width:300px;
+	height:60px;
+	border:2px solid #1ed760;
+	border-radius:10px;
+	background-color:#1ed760;
+	color:white;
+	font-family:gotham;
+	font-weight:semi-bold;
+	font-weight:440;
+	font-size:16px;
+	transition:transform 0.5s;
+}
+.premium:hover{
+	
+	background-color:white;
+	border-color:white;
+	color:black;
+	transform:scale(1.1);
+}
+
+.video{
+	 width:25%;
+	 height:280px;
+	 //background-color:white;
+	 float:left;
+	 margin-left:15%;
+	 margin-top:60px;
+	 
+	
+}
+.hr{
+	width:100%;
+	height:.5px;
+	background-color:gray;
+	margin:0;
+	
+	
+}
+.top-artists{
+	width:50%;
+	height:500px;
+	//background-color:#101414;
+	margin:auto;
+	//border:.5px solid gray;
+	padding-top:50px;
+	
+	
+	
+	
+}
+.top-artists{
+	text-align:center;
+	color:#1ed760;
+}
+.artists{
+	width:100px;
+	height:100px;
+	//background-color:white;
+	float:left;
+	margin-left:10%;
+	margin-top:60px;
+	border-radius:200px;
+	
+}
+.artists p{
+	font-weight:400;
+	color:white;
+	font-size:14px;
+}
+.artists img{
+	width:100%;
+	
+	
+	border-radius:50%;
+	transition:transform 5.5s;
+	
+}
+.artists img:hover{
+	transform: scale(1.1);
+	border:2px solid #1ed760;
+	
+	
+}
+.hr2{
+	
+	width:100%;
+	height:.5px;
+	background-color:gray;
+	margin:0;
+	
+}
+
+
+.whyspotify{
+	
+	
+	background-color:#191414;
+	width:100%;
+	height:400px;
+	
+}
+	
+.whyspotify h1{
+	margin-left:10%;
+	padding-top:110px;
+	font-size:40px;
+	color:white;
+	float:left;
+}
+.elements{
+	width:65%;
+	height:350px;
+	//background-color:white;
+	margin-left:30%;
+	margin-top:25px;
+	
+}
+.el{
+	width:45%;
+	height:150px;
+	//background-color:gray;
+	float:left;
+	margin-left:25px;
+	margin-top:15px;
+	
+}
+.el img{
+	width:15%;
+    
+	margin-left:3%;
+	float:left;
+	
+	margin-top:19px;
+	
+}
+.el h3{
+	margin-left:20%;
+	color:#1ed760;
+	
+	
+}
+.el p{
+	font-size:15px;
+	margin-left:20%;
+	color:white;
+	
+	
+}
+.footer{
+	width:100%;
+	height:380px;
+	background-color:black;
+	
+	
+	
+}
+.footer img{
+	width:10%;
+    padding:15px 0px;
+	margin-left:10%;
+	margin-top:20px;
+	
+}
+.ol{
+	list-style:none;
+	color:white;
+	margin-left:70px;
+	font-size:15px;
+	
+}
+.ol li{
+	  margin-top:20px;
+	
+	
+}
+.footer1{
+	width:25%;
+	height:250px;
+	//background-color:green;
+	margin-left:5%;
+	float:left;
+	
+	
+}
+.footer1 h4{
+	color:gray;
+	font-weight:450;
+	
+}
+
+
+/*The Weeknd page Starts here*/
+
+.wknd_banner{
+	width:100vw;
+	height:60vh;
+
+	background-color:white;
+	background-image:url(images/the_weeknd.jpg);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	
+	
+}
+.weeknd_main_wrapper{
+	
+	width:100%;
+	height:590px;
+	background-color:black;
+}
+.weeknd_main1{
+	width:45%;
+	height:500px;
+	//background-color:black;
+	float:left;
+	margin-left:3%;
+	
+	
+	
+	
+	
+}
+.weeknd_main1 h1{
+	color:1ed760;
+	font-size:80px;
+	letter-spacing:-5px;
+	
+	
+	
+}
+.line{width:20%;
+       height:5px;
+	   background-color:1ed760;
+	   position:absolute;
+	   //opacity:0.7;
+	   
+	
+	
+}
+.line1{width:90%;
+       height:5px;
+	   background-color:white;
+	
+	
+	
+}
+.weeknd_main1 p{
+	color:white;
+	letter-spacing:2px;
+	
+	
+	
+}
+
+.weeknd_main2{
+    background-image:linear-gradient(to bottom,rgba(25,20,20,2),rgba(0,0,0,0));
+width:25%;
+height:590px;	
+margin-left:60%;
+border:1px solid 666666;
+	
+	
+}
+
+.weeknd_image{
+	width:100%;
+	height:160px;
+	background-image:url(images/img.png);
+    background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+	
+}
+.weeknd_main2 p{
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+	
+	
+	
+}
+.weeknd_main2 h4{
+	color:white;
+	margin-left:10%;
+	//font-size:15px;
+	margin-bottom:4px;
+	
+	
+}
+.weeknd_music{
+	width:100%;
+	height:60px;
+	//background-color:white;
+	margin-top:4px;
+	color:white;
+	
+	
+}
+
+.weeknd_music img{
+	width:10%;
+    
+	margin-left:3%;
+	
+	
+	margin-top:10px;
+	float:left;
+	
+}
+
+.weeknd_music b{
+	font-size:15px;
+	font-weight:450;
+	
+}
+.weeknd_music p{
+	font-size:10px;
+	margin-left:20%;
+	color:white;
+	padding-top:12px;
+}
+
+
+.brfooter{
+	width:100%;
+	height:1px;
+	background-color:gray;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*The Weeknd page ends here*/
+
+/*The Ariana page starts here*/
+
+.ariana_banner{
+	width:100vw;
+	height:60vh;
+
+	background-color:white;
+	background-image:url(images/3588.jpg);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	
+	
+}
+.ariana_main_wrapper{
+	width:100%;
+	height:590px;
+	background-color:black;
+	//padding:10px;
+}
+.ariana_main1{
+	width:45%;
+	height:500px;
+	//background-color:black;
+	float:left;
+	margin-left:3%;
+	
+	
+	
+	
+	
+}
+.ariana_main1 h1{
+	color:1ed760;
+	font-size:80px;
+	letter-spacing:-5px;
+	
+	
+	
+}
+.line{width:20%;
+       height:5px;
+	   background-color:1ed760;
+	   position:absolute;
+	   //opacity:0.7;
+	   
+	
+	
+}
+.line1{width:90%;
+       height:5px;
+	   background-color:white;
+	
+	
+	
+}
+.ariana_main1 p{
+	color:white;
+	letter-spacing:2px;
+	
+	
+	
+}
+.ariana_main2{
+    background-image:linear-gradient(to bottom,rgba(25,20,20,2),rgba(0,0,0,0));
+width:25%;
+height:590px;	
+margin-left:60%;
+border:1px solid 666666;
+	
+	
+}
+
+.ariana_image{
+	width:100%;
+	height:160px;
+	background-image:url(images/3588.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+	
+}
+.ariana_main2 p{
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+	
+	
+	
+}
+.ariana_main2 h4{
+	color:white;
+	margin-left:10%;
+	//font-size:15px;
+	margin-bottom:4px;
+	
+}
+.ariana_music{
+	width:100%;
+	height:60px;
+	//background-color:white;
+	margin-top:4px;
+	color:white;
+	
+	
+}
+
+.ariana_music img{
+	width:10%;
+    
+	margin-left:3%;
+	
+	
+	margin-top:10px;
+	float:left;
+	
+}
+
+.ariana_music b{
+	font-size:15px;
+	font-weight:450;
+}
+.ariana_music p{
+	font-size:10px;
+	margin-left:20%;
+	color:white;
+	padding-top:12px;
+}
+
+.brfooter{
+	width:100%;
+	height:1px;
+	background-color:gray;
+	
+	
+}
+
+/*The Ariana page ends here*/
+
+
+/*Dhillon page starts here*/
+.dhillon_banner{
+	width:100vw;
+	height:60vh;
+
+	background-color:white;
+	background-image:url(images/dhillon.jpg);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	
+	
+}
+.dhillon_main_wrapper{
+	width:100%;
+	height:590px;
+	background-color:black;
+	//padding:10px;
+}
+.dhillon_main1{
+	width:45%;
+	height:500px;
+	//background-color:black;
+	float:left;
+	margin-left:3%;
+	
+	
+	
+	
+	
+}
+.dhillon_main1 h1{
+	color:1ed760;
+	font-size:80px;
+	letter-spacing:-5px;
+	
+	
+	
+}
+.line{width:20%;
+       height:5px;
+	   background-color:1ed760;
+	   position:absolute;
+	   //opacity:0.7;
+	   
+	
+	
+}
+.line1{width:90%;
+       height:5px;
+	   background-color:white;
+	
+	
+	
+}
+.dhillon_main1 p{
+	color:white;
+	letter-spacing:2px;
+	
+	
+	
+}
+.dhillon_main2{
+    background-image:linear-gradient(to bottom,rgba(25,20,20,2),rgba(0,0,0,0));
+width:25%;
+height:590px;	
+margin-left:60%;
+border:1px solid 666666;
+	
+	
+}
+
+.dhillon_image{
+	width:100%;
+	height:160px;
+	background-image:url(images/Dhillon_.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+	
+}
+.dhillon_main2 p{
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+	
+	
+	
+}
+.dhillon_main2 h4{
+	color:white;
+	margin-left:10%;
+	//font-size:15px;
+	margin-bottom:4px;
+	
+}
+.dhillon_music{
+	width:100%;
+	height:60px;
+	//background-color:white;
+	margin-top:4px;
+	color:white;
+	
+	
+}
+
+.dhillon_music img{
+	width:10%;
+    
+	margin-left:3%;
+	
+	
+	margin-top:10px;
+	float:left;
+	
+}
+
+.dhillon_music b{
+	font-size:15px;
+	font-weight:450;
+}
+.dhillon_music p{
+	font-size:10px;
+	margin-left:20%;
+	color:white;
+	padding-top:12px;
+}
+
+.brfooter{
+	width:100%;
+	height:1px;
+	background-color:gray;
+	
+	
+}
+/*Dhillon page ends here*/
+
+/*Atif page starts here*/
+
+.atif_banner{
+	width:100vw;
+	height:60vh;
+
+	background-color:white;
+	background-image:url(images/atif.jpg);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	
+	
+}
+.atif_main_wrapper{
+	width:100%;
+	height:590px;
+	background-color:black;
+	//padding:10px;
+}
+.atif_main1{
+	width:45%;
+	height:500px;
+	//background-color:black;
+	float:left;
+	margin-left:3%;
+	
+	
+	
+	
+	
+}
+.atif_main1 h1{
+	color:1ed760;
+	font-size:80px;
+	letter-spacing:-5px;
+	
+	
+	
+}
+.line{width:20%;
+       height:5px;
+	   background-color:1ed760;
+	   position:absolute;
+	   //opacity:0.7;
+	   
+	
+	
+}
+.line1{width:90%;
+       height:5px;
+	   background-color:white;
+	
+	
+	
+}
+.atif_main1 p{
+	color:white;
+	letter-spacing:2px;
+	
+	
+	
+}
+.atif_main2{
+    background-image:linear-gradient(to bottom,rgba(25,20,20,2),rgba(0,0,0,0));
+width:25%;
+height:590px;	
+margin-left:60%;
+border:1px solid 666666;
+	
+	
+}
+
+.atif_image{
+	width:100%;
+	height:160px;
+	background-image:url(images/atif_.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+	
+}
+.atif_main2 p{
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+	
+	
+	
+}
+.atif_main2 h4{
+	color:white;
+	margin-left:10%;
+	//font-size:15px;
+	margin-bottom:4px;
+	
+}
+.atif_music{
+	width:100%;
+	height:60px;
+	//background-color:white;
+	margin-top:4px;
+	color:white;
+	
+	
+}
+
+.atif_music img{
+	width:10%;
+    
+	margin-left:3%;
+	
+	
+	margin-top:10px;
+	float:left;
+	
+}
+
+.atif_music b{
+	font-size:15px;
+	font-weight:450;
+}
+.atif_music p{
+	font-size:10px;
+	margin-left:20%;
+	color:white;
+	padding-top:12px;
+}
+
+.brfooter{
+	width:100%;
+	height:1px;
+	background-color:gray;
+	
+	
+}
+/*Atif page ends here*/
+
+/*Owl_city page starts here*/
+
+.owl_banner{
+	width:100vw;
+	height:60vh;
+
+	background-color:white;
+	background-image:url(images/owl_.jpg);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	
+	
+}
+.owl_main_wrapper{
+	width:100%;
+	height:590px;
+	background-color:black;
+	//padding:10px;
+}
+.owl_main1{
+	width:45%;
+	height:500px;
+	//background-color:black;
+	float:left;
+	margin-left:3%;
+	
+	
+	
+	
+	
+}
+.owl_main1 h1{
+	color:1ed760;
+	font-size:80px;
+	letter-spacing:-5px;
+	
+	
+	
+}
+.line{width:20%;
+       height:5px;
+	   background-color:1ed760;
+	   position:absolute;
+	   //opacity:0.7;
+	   
+	
+	
+}
+.line1{width:90%;
+       height:5px;
+	   background-color:white;
+	
+	
+	
+}
+.owl_main1 p{
+	color:white;
+	letter-spacing:2px;
+	
+	
+	
+}
+.owl_main2{
+    background-image:linear-gradient(to bottom,rgba(25,20,20,2),rgba(0,0,0,0));
+width:25%;
+height:590px;	
+margin-left:60%;
+border:1px solid 666666;
+	
+	
+}
+
+.owl_image{
+	width:100%;
+	height:160px;
+	background-image:url(images/owl_.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	position:center;
+	
+	
+	
+}
+.owl_main2 p{
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+	
+	
+	
+}
+.owl_main2 h4{
+	color:white;
+	margin-left:10%;
+	//font-size:15px;
+	margin-bottom:4px;
+	
+}
+.owl_music{
+	width:100%;
+	height:60px;
+	//background-color:white;
+	margin-top:4px;
+	color:white;
+	
+	
+}
+
+.owl_music img{
+	width:10%;
+    
+	margin-left:3%;
+	
+	
+	margin-top:10px;
+	float:left;
+	
+}
+
+.owl_music b{
+	font-size:15px;
+	font-weight:450;
+}
+.owl_music p{
+	font-size:10px;
+	margin-left:20%;
+	color:white;
+	padding-top:12px;
+}
+
+.brfooter{
+	width:100%;
+	height:1px;
+	background-color:gray;
+	
+	
+}
+
+
+
+
+
+
+/*Owl_city page ends here*/
+
+
+
+
+/*Sajjan page starts here*/
+
+.sajjan_banner{
+	width:100vw;
+	height:60vh;
+
+	background-color:white;
+	background-image:url(images/sajjan.jpg);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	
+	
+}
+.sajjan_main_wrapper{
+	width:100%;
+	height:590px;
+	background-color:black;
+	//padding:10px;
+}
+.sajjan_main1{
+	width:45%;
+	height:500px;
+	//background-color:black;
+	float:left;
+	margin-left:3%;
+	
+	
+	
+	
+	
+}
+.sajjan_main1 h1{
+	color:1ed760;
+	font-size:80px;
+	letter-spacing:-5px;
+	
+	
+	
+}
+.line{width:20%;
+       height:5px;
+	   background-color:1ed760;
+	   position:absolute;
+	   //opacity:0.7;
+	   
+	
+	
+}
+.line1{width:90%;
+       height:5px;
+	   background-color:white;
+	
+	
+	
+}
+.sajjan_main1 p{
+	color:white;
+	letter-spacing:2px;
+	
+	
+	
+}
+.sajjan_main2{
+    background-image:linear-gradient(to bottom,rgba(25,20,20,2),rgba(0,0,0,0));
+width:25%;
+height:590px;	
+margin-left:60%;
+border:1px solid 666666;
+	
+	
+}
+
+.sajjan_image{
+	width:100%;
+	height:160px;
+	background-image:url(images/sajan.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	position:center;
+	
+	
+	
+}
+.sajjan_main2 p{
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+	
+	
+	
+}
+.sajjan_main2 h4{
+	color:white;
+	margin-left:10%;
+	//font-size:15px;
+	margin-bottom:4px;
+	
+}
+.sajjan_music{
+	width:100%;
+	height:60px;
+	//background-color:white;
+	margin-top:4px;
+	color:white;
+	
+	
+}
+
+.sajjan_music img{
+	width:10%;
+    
+	margin-left:3%;
+	
+	
+	margin-top:10px;
+	float:left;
+	
+}
+
+.sajjan_music b{
+	font-size:15px;
+	font-weight:450;
+}
+.sajjan_music p{
+	font-size:10px;
+	margin-left:20%;
+	color:white;
+	padding-top:12px;
+}
+
+.brfooter{
+	width:100%;
+	height:1px;
+	background-color:gray;
+	
+	
+}
+
+
+
+
+
+
+/*Sajjan page ends here*/
+
+
+
+
+
+
+/*imagine page starts here*/
+
+.imagine_banner{
+	width:100vw;
+	height:60vh;
+
+	background-color:white;
+	background-image:url(images/imag.png);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	
+	
+}
+.imagine_main_wrapper{
+	width:100%;
+	height:590px;
+	background-color:black;
+	//padding:10px;
+}
+.imagine_main1{
+	width:45%;
+	height:500px;
+	//background-color:black;
+	float:left;
+	margin-left:3%;
+	
+	
+	
+	
+	
+}
+.imagine_main1 h1{
+	color:1ed760;
+	font-size:80px;
+	letter-spacing:-5px;
+	
+	
+	
+}
+.line{width:20%;
+       height:5px;
+	   background-color:1ed760;
+	   position:absolute;
+	   //opacity:0.7;
+	   
+	
+	
+}
+.line1{width:90%;
+       height:5px;
+	   background-color:white;
+	
+	
+	
+}
+.imagine_main1 p{
+	color:white;
+	letter-spacing:2px;
+	
+	
+	
+}
+.imagine_main2{
+    background-image:linear-gradient(to bottom,rgba(25,20,20,2),rgba(0,0,0,0));
+width:25%;
+height:590px;	
+margin-left:60%;
+border:1px solid 666666;
+	
+	
+}
+
+.imagine_image{
+	width:100%;
+	height:160px;
+	background-image:url(images/imagine_.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	position:center;
+	
+	
+	
+}
+.imagine_main2 p{
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+	
+	
+	
+}
+.imagine_main2 h4{
+	color:white;
+	margin-left:10%;
+	//font-size:15px;
+	margin-bottom:4px;
+	
+}
+.imagine_music{
+	width:100%;
+	height:60px;
+	//background-color:white;
+	margin-top:4px;
+	color:white;
+	
+	
+}
+
+.imagine_music img{
+	width:10%;
+    
+	margin-left:3%;
+	
+	
+	margin-top:10px;
+	float:left;
+	
+}
+
+.imagine_music b{
+	font-size:15px;
+	font-weight:450;
+}
+.imagine_music p{
+	font-size:10px;
+	margin-left:20%;
+	color:white;
+	padding-top:12px;
+}
+
+.brfooter{
+	width:100%;
+	height:1px;
+	background-color:gray;
+	
+	
+}
+
+
+
+
+
+
+/*imagine page ends here*/
+
+
+/*Hoobastank page starts here*/
+
+.hoob_banner{
+	width:100vw;
+	height:60vh;
+
+	background-color:white;
+	background-image:url(images/hoobastan.jpg);
+	background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	
+	
+}
+.hoob_main_wrapper{
+	width:100%;
+	height:590px;
+	background-color:black;
+	//padding:10px;
+}
+.hoob_main1{
+	width:45%;
+	height:500px;
+	//background-color:black;
+	float:left;
+	margin-left:3%;
+	
+	
+	
+	
+	
+}
+.hoob_main1 h1{
+	color:1ed760;
+	font-size:80px;
+	letter-spacing:-5px;
+	
+	
+	
+}
+.line{width:20%;
+       height:5px;
+	   background-color:1ed760;
+	   position:absolute;
+	   //opacity:0.7;
+	   
+	
+	
+}
+.line1{width:90%;
+       height:5px;
+	   background-color:white;
+	
+	
+	
+}
+.hoob_main1 p{
+	color:white;
+	letter-spacing:2px;
+	
+	
+	
+}
+.hoob_main2{
+    background-image:linear-gradient(to bottom,rgba(25,20,20,2),rgba(0,0,0,0));
+width:25%;
+height:590px;	
+margin-left:60%;
+border:1px solid 666666;
+	
+	
+}
+
+.hoob_image{
+	width:100%;
+	height:160px;
+	background-image:url(images/hoobastan.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	position:center;
+	
+	
+	
+}
+.hoob_main2 p{
+	color:white;
+	margin-left:10%;
+	font-size:15px;
+	
+	
+	
+}
+.hoob_main2 h4{
+	color:white;
+	margin-left:10%;
+	//font-size:15px;
+	margin-bottom:4px;
+	
+}
+.hoob_music{
+	width:100%;
+	height:60px;
+	//background-color:white;
+	margin-top:4px;
+	color:white;
+	
+	
+}
+
+.hoob_music img{
+	width:10%;
+    
+	margin-left:3%;
+	
+	
+	margin-top:10px;
+	float:left;
+	
+}
+
+.hoob_music b{
+	font-size:15px;
+	font-weight:450;
+}
+.hoob_music p{
+	font-size:10px;
+	margin-left:20%;
+	color:white;
+	padding-top:12px;
+}
+
+.brfooter{
+	width:100%;
+	height:1px;
+	background-color:gray;
+	
+	
+}
+
+
+
+
+
+
+/*Hoobastank page ends here*/
+
+
+
